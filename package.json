@@ -1,0 +1,32 @@
+{
+  "name": "parcel-typescript-frontend-template",
+  "version": "0.0.1",
+  "description": "Parcel Template",
+  "main": "build/index.html",
+  "author": "matheusgrieger <matheusgrieger@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel src/pages/**/*.html --open --no-autoinstall",
+    "build": "parcel build src/pages/**/*.html -d build --experimental-scope-hoisting --no-content-hash --no-minify"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "parcel-bundler": "^1.12.5",
+    "posthtml-extend": "^0.6.0",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.11",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "swiper": "^6.5.7"
+  }
+}
