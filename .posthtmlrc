@@ -1,7 +1,13 @@
 {
   "plugins": {
     "posthtml-extend": {
-      "root": "./src/layouts"
-    }
+      "root": "./src/layouts",
+      "slotTagName": "slot",
+      "fillTagName": "fill"
+    },
+    "posthtml-include": {
+      "root": "./src"
+    },
+    "posthtml-expressions": {}
   }
 }
